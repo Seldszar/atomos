@@ -1,0 +1,30 @@
+{
+  "name": "atomos",
+  "description": "Another tool for recursively remove module directories",
+  "version": "0.1.0",
+  "author": "Alexandre Breteau <contact@seldszar.fr> (https://seldszar.fr)",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "bin": "bin/index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "lint-staged": "lint-staged",
+    "precommit": "npm run lint-staged"
+  },
+  "dependencies": {
+    "globby": "^7.1.1",
+    "meow": "^4.0.0",
+    "trash": "^4.2.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.0.2",
+    "eslint": "^4.11.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "husky": "^0.14.3",
+    "lint-staged": "^6.0.0"
+  },
+  "lint-staged": {
+    "*.js": "eslint"
+  }
+}
