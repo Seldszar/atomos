@@ -1,5 +1,7 @@
 # Atomos
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/Seldszar/atomos.svg)](https://greenkeeper.io/)
+
 > This particle cannon generates a condensed beam of super-heated plasma designed to melt rock to ore, and enemies to molten slag.
 
 This simple tool recursively removes module directories (`node_modules` & `bower_components`).
